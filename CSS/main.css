@@ -25,9 +25,17 @@
     padding: 50px 230px;
 }
 
-p.job-title{
+.class {
+    position: absolute;
+
+}
+
+.job-title{
     writing-mode: vertical-lr;
-    padding-left: 260px;
+    position: relative;
+    left: 160px;
+    top: 90px;
+    /* padding-left: 260px; */
 }
 .imgs {
     max-width: 70%;
