@@ -1,0 +1,9 @@
+.row1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.row2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
