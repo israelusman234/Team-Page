@@ -1,20 +1,7 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
 
-#row1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 120px;
-    margin-top: 40px;
-}
-
-#row2 {
+.row2{
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: 1fr 1fr 1fr;
     align-items: space-around;
     column-gap: 40px;
@@ -86,3 +73,7 @@ p.horizontal {
 }
 
 
+=======
+    grid-template-columns: auto auto auto;
+}
+>>>>>>> b174e74e4459726430b3074627ae06fa17b27822
